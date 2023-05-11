@@ -366,4 +366,29 @@ body {
             width: 17%;
           }
       }
+
+      @media screen and (max-width: 1024px) {
+        #header {
+            height: 160px;
+        }
+        #logo {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #navmenu {
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0;
+            justify-content: center;
+        }
+        #main-container {
+            width: 90%;
+        }
+        #title {
+            font-size: 24px;
+        }
+        .picture-item {
+           flex-basis: 40%;
+        }
+    }
       
