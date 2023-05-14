@@ -19,6 +19,7 @@
 
 #team {
     position: absolute;
+    flex-wrap: nowrap;
     font-family:"bitbit";
     top: 165px;
     left: 40px;
@@ -106,9 +107,10 @@ body {
 
 #Catchphrase {
    
-    white-space: nowrap;
+    
     font-family:"TheJamsil5Bold";
     height: 120px;
+    
     width: 100%;
     background-color: rgb(115, 126, 152); 
     font-size: 20px;
@@ -200,25 +202,12 @@ body {
         
         100% {
           left:100px;
+          
         }
       }
  
-      h1::before {
-
-        display: flex;
-        content: "T";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 100%;
-        color: rgba(0, 0, 0, 0);
-        border-right: 500px solid rgb(255, 255, 255);
-        animation: typing 1.1s steps(100) forwards;
-        z-index: 3
-        
-      }
-      
+     
+    
      
       @keyframes typing{
         0% {
@@ -247,7 +236,7 @@ body {
 
 #flex-item-1 {
     
-    flex-basis: 750px; 
+    flex-basis: 50%; 
     flex-shrink: -1; 
     flex-grow:-1; 
     padding-top: 50px;
@@ -318,58 +307,17 @@ body {
       width: 80%;
     }
     
-    @keyframes fadein {
-        from {
-            opacity: 0;
-            transform: translate3d(0, 3%, 0);
-        }
-        to {
-            opacity: 1;
-            transform: translateZ(0);
-        }
-    }
-    
+   
 
    
-    @keyframes jaehee {
-        0% {
-          left: 0px;
-        }
-        
-        100% {
-          left:100px;
-        }
-      }
- 
-      h1::before {
-
-        display: flex;
-        content: "T";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 100%;
-        color: rgba(0, 0, 0, 0);
-        border-right: 500px solid rgb(255, 255, 255);
-        animation: typing 1.1s steps(100) forwards;
-        z-index: 3
-        
-      }
+   
       
      
-      @keyframes typing{
-        0% {
-            width: 0%;
-          }
-          100% {
-            width: 17%;
-          }
-      }
+     
 
       @media screen and (max-width: 1024px) {
         #header {
-            height: 160px;
+            height: 120px;
         }
         #logo {
             left: 50%;
@@ -377,8 +325,10 @@ body {
         }
         #navmenu {
             left: 50%;
+            top: 60%;
             transform: translateX(-50%);
             padding: 0;
+
             justify-content: center;
         }
         #main-container {
@@ -389,6 +339,19 @@ body {
         }
         .picture-item {
            flex-basis: 40%;
+        }
+
+        #team{
+          
+            
+        }
+
+        #Catchphrase{
+            height: 290px;
+        }
+
+        #NOX_1 {
+            
         }
     }
       
