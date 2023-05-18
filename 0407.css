@@ -17,25 +17,6 @@
 }
 
 
-#team {
-    position: absolute;
-    flex-wrap: nowrap;
-    font-family:"bitbit";
-    top: 165px;
-    left: 40px;
-    font-size: 25px;
-    z-index: 300;
-}
-
-#team-1 {
-    position: absolute;
-    font-family:"bitbit";
-    white-space:pre;
-    top: 115px;
-    left: 455px;
-    font-size: 25px;
-    z-index: 300;
-}
 
 #NOX_1 {
     position: absolute;
@@ -137,7 +118,7 @@ body {
     vertical-align: middle;
 }
 
-#Catchphrase img { width: 100px;}
+#Catchphrase img , #team-1 , #team{ width: 100px;}
 
 
 /*-----------------------------*/
@@ -346,11 +327,17 @@ body {
         }
 
         #Catchphrase{
-            height: 200px;
+            height: 180px;
+            transform: translateX(-5%);
         }
 
+        #Catchphrase img {
+            width: 90px ;
+        }
+
+
         #NOX_1 {
-            top: 340%;
+            top: 340px;
         }
 
         #team-1 {
@@ -365,15 +352,13 @@ body {
 
         #description {
             left: 50px;
-            transform: translate(-145%,140%);
+            transform: translate(-150%,140%);
             font-size: 15px;
         }
 
-        #Catchphrase img { width: 90px;}
-
         #title {
             
-            transform: translate(-145%,380%);
+            transform: translate(-150%,380%);
             font-size: 15px;
         }
 
