@@ -16,7 +16,12 @@
     src: url("fonts/AnyConv.com__KimjungchulGothic-Regular.woff") format("woff");
 }
 
-
+html {
+    max-width: 100%;
+} 
+body {
+    overflow-x: hidden;
+    }
 
 
 #NOX_1 {
@@ -410,9 +415,6 @@ body {
         font-size: 15px;
         width: 50px;
         }
-        
-        html, body {
-            max-width: 100%;
-            overflow-x: hidden;
-            }
+
+       
     }
