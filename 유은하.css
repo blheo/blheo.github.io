@@ -264,7 +264,7 @@
        writing-mode: vertical-lr;
        text-orientation: upright;
        color:rgb(255, 255, 255);
-       background-color: rgb(80, 173, 250);
+       background-color: rgb(182, 0, 182);
        width: 5%;
        z-index: 2
        
@@ -287,10 +287,16 @@
        animation: fadein 3s ease 1s;
          -webkit-animation: fadein 2s; /* Safari and Chrome */
    }
-
+       #flex-item-1 img{
+         width: 80%;
+       }
        
       
-
+   
+      
+      
+         
+        
         
    
        @media screen and (max-width: 1024px) {
@@ -352,13 +358,13 @@
    
            #description {
                left: 50px;
-               transform: translate(-200%,170%);
+               transform: translate(-150%,150%);
                font-size: 15px;
            }
    
            #title {
                
-               transform: translate(-200%,380%);
+               transform: translate(-150%,380%);
                font-size: 15px;
            }
    
@@ -376,7 +382,8 @@
            #flex-item-1 img{
            left: 50%;
            transform: translateX(-25%);
-           width: 470px;
+           width: 500px;
+         
            }
    
            #NOX img{
