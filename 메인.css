@@ -169,6 +169,7 @@
     }
     #main-container {
         width: 90%;
+        top: 100px;
     }
     #title {
         font-size: 24px;
@@ -192,7 +193,9 @@
     #Catchphrase img {
         width: 90px ;
     }
-
+    #main  {
+        top: 110px;
+    }
     #main img {
         width: 100%;
     }
