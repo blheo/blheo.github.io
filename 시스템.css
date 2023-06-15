@@ -95,3 +95,79 @@
        z-index: 4
        
    }
+
+   #systems {
+    position: absolute;
+    top: 40px;
+   }
+
+   img { width: 50%;}
+
+   div{
+    text-align: center;
+  }
+
+   #explanation {
+    font-family:"KimjungchulGothic" ; 
+       position: relative;
+       font-size: 40px;
+       
+   }
+
+   img { width: 50%;}
+
+   div{
+    text-align: center;
+  }
+  
+
+@media screen and (max-width: 1024px) {
+    #header {
+        height: 120px;
+    }
+    #logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #navmenu {
+        left: 50%;
+        top: 60%;
+        transform: translateX(-50%);
+        padding: 0;
+
+        justify-content: center;
+    }
+    #main-container {
+        width: 90%;
+    }
+    #title {
+        font-size: 24px;
+    }
+    .picture-item {
+       flex-basis: 40%;
+    }
+
+    #team{
+      top: 210px;
+      font-size: 20px;
+      left: 45px;
+        
+    }
+
+    #Catchphrase{
+        height: 180px;
+        transform: translateX(-5%);
+    }
+
+    #Catchphrase img {
+        width: 90px ;
+    }
+
+    #explanation {
+        font-size: 20px;
+    }
+
+    #main img {
+    width: 70%;
+    }
+}

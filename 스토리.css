@@ -91,4 +91,116 @@
        text-decoration: none;
        opacity: 0.4;
    }
+
+   #A {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+#A img { width: 90%;}
+
+#B {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+#B img { width: 700px;}
+
+#B {
+        
+    animation-name: jaehee;
+    animation-duration:1s;
+    animation-duration: leaner;
+    animation-fill-mode: forwards;
+    }
+    @keyframes jaehee {
+        0% {
+          opacity: 0;
+          left: 10px;
+        }
+        
+        100% {
+          opacity: 1;
+          left: 30px;
+        }
+      }
+
+
    
+   @media screen and (max-width: 1024px) {
+    #header {
+        height: 120px;
+    }
+    #logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #navmenu {
+        left: 50%;
+        top: 60%;
+        transform: translateX(-50%);
+        padding: 0;
+
+        justify-content: center;
+    }
+    #main-container {
+        width: 90%;
+    }
+    #title {
+        font-size: 24px;
+    }
+    .picture-item {
+       flex-basis: 40%;
+    }
+
+    #team{
+      top: 210px;
+      font-size: 20px;
+      left: 45px;
+        
+    }
+
+    #Catchphrase{
+        height: 180px;
+        transform: translateX(-5%);
+    }
+
+    #Catchphrase img {
+        width: 90px ;
+    }
+
+    #A {
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+
+    #B {
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+
+    #B img {
+        width: 300px;
+    }
+
+    #B {
+        
+        animation-name: jaehee;
+        animation-duration:1s;
+        animation-duration: leaner;
+        animation-fill-mode: forwards;
+        }
+        @keyframes jaehee {
+            0% {
+              opacity: 0;
+              left: 0px;
+            }
+            
+            100% {
+              opacity: 1;
+              left: 10px;
+            }
+          }
+}

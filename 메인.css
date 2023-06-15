@@ -125,3 +125,75 @@
    }
    
    #Catchphrase img , #team-1 , #team{ width: 100px;}
+
+   #main {
+    position: absolute;
+       top: 50px;
+   }
+
+   #main img {width: 100%; }
+
+   #main {
+        
+    animation-name: jaehee;
+    animation-duration:1s;
+    animation-duration: leaner;
+    animation-fill-mode: forwards;
+    }
+    @keyframes jaehee {
+        0% {
+          opacity: 0;
+        }
+        
+        100% {
+          opacity: 1
+        }
+      }
+     
+
+   @media screen and (max-width: 1024px) {
+    #header {
+        height: 120px;
+    }
+    #logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #navmenu {
+        left: 50%;
+        top: 60%;
+        transform: translateX(-50%);
+        padding: 0;
+
+        justify-content: center;
+    }
+    #main-container {
+        width: 90%;
+    }
+    #title {
+        font-size: 24px;
+    }
+    .picture-item {
+       flex-basis: 40%;
+    }
+
+    #team{
+      top: 210px;
+      font-size: 20px;
+      left: 45px;
+        
+    }
+
+    #Catchphrase{
+        height: 180px;
+        transform: translateX(-5%);
+    }
+
+    #Catchphrase img {
+        width: 90px ;
+    }
+
+    #main img {
+        width: 100%;
+    }
+}
